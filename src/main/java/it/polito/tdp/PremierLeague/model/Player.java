@@ -3,6 +3,7 @@ package it.polito.tdp.PremierLeague.model;
 public class Player {
 	Integer playerID;
 	String name;
+	double efficienza;
 	
 	public Player(Integer playerID, String name) {
 		super();
@@ -21,6 +22,14 @@ public class Player {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public double getEfficienza() {
+		return efficienza;
+	}
+
+	public void setEfficienza(double efficienza) {
+		this.efficienza = efficienza;
 	}
 
 	@Override
